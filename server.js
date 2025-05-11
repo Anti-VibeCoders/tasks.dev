@@ -12,7 +12,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.json({ success: "¡Bienvenido a la API de ordenamiento de números!" })
+    res.json({ success: "¡Bienvenido a la API de Tasks.dev!" })
 })
 
 app.use('/api', apiRouter)
