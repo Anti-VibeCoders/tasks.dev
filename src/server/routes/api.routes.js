@@ -3,7 +3,7 @@ import { obtenerTareas, encontrarTareaPorId, crearTarea, actualizarTarea, elimin
 
 const apiRouter = express.Router()
 
-apiRouter.get('/tareas',obtenerTareas)
+apiRouter.get('/tareas', obtenerTareas)
 
 apiRouter.get('/tareas/:id', encontrarTareaPorId)
 
